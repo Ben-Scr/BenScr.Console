@@ -71,16 +71,16 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(ProjectDir)..\ConsoleCpp\Include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)..\Console\Include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(ProjectDir)..\ConsoleCpp\Include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)..\Console\Include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)\ConsoleCpp\Include</IncludePath>
+    <IncludePath>$(SolutionDir)\Console\Include</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(SolutionDir)\ConsoleCpp\Include</IncludePath>
+    <IncludePath>$(SolutionDir)\Console\Include</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -142,7 +142,7 @@
     <ClCompile Include="Playground.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleCpp\ConsoleCpp.vcxproj">
+    <ProjectReference Include="..\Console\Console.vcxproj">
       <Project>{74fba664-96e4-419c-9500-f3e4659e75ca}</Project>
     </ProjectReference>
   </ItemGroup>

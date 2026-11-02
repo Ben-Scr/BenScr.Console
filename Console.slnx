@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ConsoleCpp/ConsoleCpp.vcxproj" Id="74fba664-96e4-419c-9500-f3e4659e75ca" />
+  <Project Path="Console/Console.vcxproj" Id="74fba664-96e4-419c-9500-f3e4659e75ca" />
   <Project Path="Playground/Playground.vcxproj" Id="53f39f76-ba21-45bb-ad97-115dc3e2f916" />
 </Solution>
