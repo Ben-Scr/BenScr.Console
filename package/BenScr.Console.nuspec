@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>BenScr.Console</id><version>1.0.0</version><authors>Ben Schneider</authors>
+    <description>C++20 terminal output, validated ANSI controls, redirected-stream handling and portable console input. Source distribution compiled with the consumer's toolchain.</description>
+    <projectUrl>https://github.com/Ben-Scr/BenScr.Console</projectUrl>
+    <repository type="git" url="https://github.com/Ben-Scr/BenScr.Console" commit="$commit$" />
+    <license type="file">LICENSE.txt</license><readme>README.md</readme><icon>icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance><tags>native console terminal ansi cpp20</tags>
+  </metadata>
+  <files>
+    <file src="include\benscr\console\console.hpp" target="include\benscr\console" />
+    <file src="src\console.cpp" target="src" />
+    <file src="package\BenScr.Console.props" target="build\native" />
+    <file src="package\BenScr.Console.targets" target="build\native" />
+    <file src="LICENSE.txt" target="" /><file src="README.md" target="" />
+    <file src="branding\BenScr_Icon_Master.png" target="icon.png" />
+  </files>
+</package>

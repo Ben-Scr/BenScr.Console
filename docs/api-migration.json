@@ -1,0 +1,18 @@
+{
+  "source_repository":"https://github.com/Ben-Scr/ConsoleCpp",
+  "source_commit":"fea9e49cb9af6ae40aa514dbef4b7fbd70ad2d38",
+  "source_package":"ConsoleCPP",
+  "source_version":"1.0.3",
+  "target_package":"BenScr.Console",
+  "source_public_members":7,
+  "mapped_public_members":7,
+  "mapping":[
+    {"old":"BenScr::Console::Write","new":"BenScr::Console::Write","change":"static class method to namespace function; forwarding"},
+    {"old":"BenScr::Console::WriteLine","new":"BenScr::Console::WriteLine","change":"static class method to namespace function; forwarding"},
+    {"old":"BenScr::Console::ReadLine","new":"BenScr::Console::ReadLine","change":"preserved EOF behavior; new TryReadLine alternative"},
+    {"old":"BenScr::Console::ReadKey","new":"BenScr::Console::ReadKey","change":"portable implementation and explicit redirected EOF errors"},
+    {"old":"BenScr::Console::Clear","new":"BenScr::Console::Clear","change":"no shell; visible screen only; redirected controls disabled"},
+    {"old":"BenScr::Console::SetTitle","new":"BenScr::Console::SetTitle","change":"bounded printable ASCII string_view; rejects controls"},
+    {"old":"BenScr::Console::SetCursorPosition","new":"BenScr::Console::SetCursorPosition","change":"validated zero-based coordinates"}
+  ]
+}

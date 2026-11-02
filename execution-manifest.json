@@ -1,0 +1,21 @@
+{
+  "schema_version":1,
+  "package":"BenScr.Console",
+  "version":"1.0.0",
+  "language":"C++20",
+  "source_repository":"https://github.com/Ben-Scr/ConsoleCpp",
+  "source_commit":"fea9e49cb9af6ae40aa514dbef4b7fbd70ad2d38",
+  "source_package":"ConsoleCPP 1.0.3",
+  "source_owner":"Ben-Scr",
+  "package_owner":"ben.scr",
+  "history_retained":true,
+  "license":"original LICENSE.txt",
+  "mapped_legacy_members":7,
+  "public_contract_baseline":"docs/public-header-baseline.json",
+  "runtime_dependencies":[],
+  "distribution":"native sources with exact-ID MSBuild props/targets; separately installed CMake static library",
+  "local_verification":"25 contract cases, standalone header, redirected streams, relocated CMake consumer, native NuGet Debug/Release x64 consumer",
+  "ci_configuration":["Windows MSVC v143 x64","Linux GCC 14 x64 with ASan/UBSan","Linux Clang 18 x64 with ASan/UBSan"],
+  "interactive_terminal_testing":"not_automated",
+  "publication_status":"see exact artifact release-manifest.json and public release record"
+}
