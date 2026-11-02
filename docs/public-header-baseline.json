@@ -1,5 +1,5 @@
 {
   "header": "include/benscr/console/console.hpp",
-  "sha256": "e274f204678fc74d3312a5a30615b3eb42666b22bd58cf5ca3fbd6742ea7ccca",
+  "sha256": "c2d12e19e91f735dfd7b0e607bf777434fcbfee92e2a2fed7ba8dcd4c37e846b",
   "policy": "Reviewed public header baseline; intentional public contract changes update this record."
 }

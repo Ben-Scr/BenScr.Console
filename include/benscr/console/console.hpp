@@ -40,7 +40,10 @@ class TerminalWriter
     [[nodiscard]] bool IsControlEnabled() const noexcept;
     template <typename... Args> void Write(Args &&...args)
     {
-        (output << ... << std::forward<Args>(args));
+        if constexpr (sizeof...(Args) > 0)
+        {
+            (output << ... << std::forward<Args>(args));
+        }
     }
     template <typename... Args> void WriteLine(Args &&...args)
     {
@@ -91,7 +94,10 @@ class TerminalSession
 
 template <typename... Args> void Write(Args &&...args)
 {
-    (std::cout << ... << std::forward<Args>(args));
+    if constexpr (sizeof...(Args) > 0)
+    {
+        (std::cout << ... << std::forward<Args>(args));
+    }
 }
 template <typename... Args> void WriteLine(Args &&...args)
 {
